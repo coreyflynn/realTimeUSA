@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+  head
+    title realTimeUSA
+    //- script(src='/public/bower_components/socket.io-client/socket.io.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='//d3js.org/d3.v3.min.js')
+    script(src='//d3js.org/topojson.v1.min.js')
+    style.
+      .land {
+        fill: #fff;
+        stroke: #ccc;
+      }
+
+      .state {
+        fill: #e6e7eb;
+        stroke: #666;
+      }
+
+      body {
+        background-color: #394d61;
+      }
+  body
+
+    script(src='map.js')
+    script(src='main.js')
