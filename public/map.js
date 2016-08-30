@@ -1,6 +1,6 @@
 var path = d3.geo.path();
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#container").append("svg")
     .attr("width", 960)
     .attr("height", 500);
 
