@@ -5,10 +5,20 @@ An example implementation of real time data views on a US map built on top of so
 
 US based tweets from the twitter streaming API are shown on a map drawn with D3 using topoJSON
 
-## Installing dependencies
+## Get this rig up and running!
+### Install dependencies
 `npm install`
 
-## Running the app
+### Set up your environment variables
+This project uses environment variables to connect to Twitter's streaming API. Go ahead and get yourself some [developer tokens](https://apps.twitter.com/) to use and put them in a `.env` file in the root directory
+```
+TWITTER_CONSUMER_KEY=####
+TWITTER_CONSUMER_SECRET=####
+TWITTER_ACCESS_TOKEN_KEY=####
+TWITTER_ACCESS_TOKEN_SECRET=####
+```
+
+## Run the app
 `node app.js`
 
 once you've got the server up and running, check out [http://localhost:3000](http://localhost:3000)
