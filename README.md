@@ -1,5 +1,7 @@
 # realTimeUSA
-An example implementation of real time data views on a US map
+
+
+An example implementation of real time data views on a US map built on top of socket IO
 
 US based tweets from the twitter streaming API are shown on a map drawn with D3 using topoJSON
 
@@ -8,4 +10,6 @@ US based tweets from the twitter streaming API are shown on a map drawn with D3 
 
 ## Running the app
 `node app.js`
+
+once you've got the server up and running, check out [http://localhost:3000](http://localhost:3000)
 
