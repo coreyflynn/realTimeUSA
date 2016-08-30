@@ -1,5 +1,5 @@
 # realTimeUSA
-
+![](demo.gif)
 
 An example implementation of real time data views on a US map built on top of socket IO
 
