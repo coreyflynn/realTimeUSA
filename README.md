@@ -3,7 +3,7 @@
 
 An example implementation of real time data views on a US map built on top of socket IO
 
-US based tweets from the twitter streaming API are shown on a map drawn with D3 using topoJSON
+US based tweets from the twitter streaming API are shown on a map drawn with D3 using topoJSON. Howler is used for manipulating sounds.
 
 ## Get this rig up and running!
 ### Install dependencies
