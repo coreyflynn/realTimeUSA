@@ -13,7 +13,7 @@ for (var i = 1; i < 27; i++) {
 
 
 if(io !== undefined) {
-  socket = io.connect('http://localhost:3000');
+  socket = io.connect('//localhost:3000');
 
   // This listens on the "twitter-steam" channel and data is
   // received everytime a new tweet is receieved.
