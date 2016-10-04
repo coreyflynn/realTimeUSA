@@ -20,7 +20,7 @@ if(io !== undefined) {
     if (tweet.coordinates) {
       projectedCoords = projection(tweet.coordinates.coordinates);
       if (projectedCoords) {
-        id = new Date().getTime();
+        var id = new Date().getTime();
         svg.append("circle")
           .attr('id', 'circle' + id)
           .attr("r",5)
@@ -29,7 +29,7 @@ if(io !== undefined) {
           .attr("transform", function() {
             return "translate(" + projection(tweet.coordinates.coordinates) + ")";
           });
-        d3.select('#circle' + id).transition().duration(1000)
+        d3.selectAll('#circle' + id).transition().duration(1000)
           .attr('r',20)
           .attr('opacity', 0.5)
           .transition().duration(1000).delay(2000)
