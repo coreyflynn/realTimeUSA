@@ -13,7 +13,7 @@ for (var i = 1; i < 27; i++) {
 
 
 if(io !== undefined) {
-  socket = io.connect('//localhost:3000');
+  socket = io.connect(window.location.origin);
 
   // This listens on the "twitter-steam" channel and data is
   // received everytime a new tweet is receieved.
@@ -31,7 +31,6 @@ if(io !== undefined) {
     if (tweet.coordinates) {
       projectedCoords = projection(tweet.coordinates.coordinates);
       if (projectedCoords) {
-        console.log(projectedCoords);
         var sound = sounds[Math.floor(Math.random() * sounds.length)];
         sound.play();
         var id = new Date().getTime();
