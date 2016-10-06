@@ -1,3 +1,5 @@
+[ ![Codeship Status for coreyflynn/realTimeUSA](https://codeship.com/projects/74a02f00-6d9c-0134-43e9-2a2617f0d1a1/status?branch=master)](https://codeship.com/projects/177555)
+
 # realTimeUSA
 ![](demo.gif)
 
